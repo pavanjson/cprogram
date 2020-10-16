@@ -4,8 +4,9 @@ void main()
 {
 int a,b,c;
 printf("enter two no.");
-scanf();
-printf("the sum is");
+scanf("%d%d",&a,&b);
+c=a+b;
+printf("the sum is %d",c);
 getch();
 
 
